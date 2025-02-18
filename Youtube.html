@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="img/hamburger-menu.svg">
+        <img class="youtube-logo" src="img/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="img/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="img/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="img/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="img/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="img/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="img/channel-profile-main.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="img/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="img/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="img/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="img/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="img/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="img/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 2.webp">
+            <div class="video-time">4:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Elon Musk - Never Give Up | Gangsta's Paradise
+              </p>
+              <p class="video-author">
+                Drew Jimenez
+              </p>
+              <p class="video-stats">
+                4.8M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 3.webp">
+            <div class="video-time">5:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile3.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I SUED THE SCHOOL SYSTEM
+                (2024)
+              </p>
+              <p class="video-author">
+                Prince Ea
+              </p>
+              <p class="video-stats">
+                28M views &#183; 8 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 4.webp">
+            <div class="video-time">12:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile4.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                INSANE WORK ETHIC - Kobe Bryant Motivational Video
+              </p>
+              <p class="video-author">
+                Alpha Leaders
+              </p>
+              <p class="video-stats">
+                4.5M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 5.webp">
+            <div class="video-time">28:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Create a PRO CAR ANIMATION in blender in just 25 minutes! Complete Blender tutorial - see every step
+              </p>
+              <p class="video-author">
+                MediaWay
+              </p>
+              <p class="video-stats">
+                472K views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 6.webp">
+            <div class="video-time">12:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/quick style.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                FAMOUS WEDDING SHOW(FULL)
+                2022 - Quick Style
+              </p>
+              <p class="video-author">
+                TheQuickStyle
+              </p>
+              <p class="video-stats">
+                151M views &#183; 2 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 7.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                C7L &#183;
+              </p>
+              <p class="video-stats">
+                902K views &#183;  8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 8.webp">
+            <div class="video-time">5:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile8.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                40Hz Binaural Beats 5 Minutes for Intense Focus
+              </p>
+              <p class="video-author">
+                Sounds to Success 
+              </p>
+              <p class="video-stats">
+                8.5M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 9.webp">
+            <div class="video-time">3:30</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile9.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I Jumped From Space (World Record Supersonic Freefall)
+              </p>
+              <p class="video-author">
+                Red Bull
+              </p>
+              <p class="video-stats">
+                37M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="img/thumbnail 10.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="img/channel-profile10.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                CS Dojo
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
